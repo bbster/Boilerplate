@@ -1,0 +1,9 @@
+- 패키지 설치 : `pip install -r requirements.txt`
+- pytest 설정 : setup.cfg 파일 생성
+- 테스트 작성은 : 'django.test.TestCase'를 상속받은 테스트 스위트를 만들고, "test_"로 시작하는 메서드를 추가하여 테스트 한다.
+- 테스트 실행 방법 (코드 파일 누르고 ctrl+shift+c(경로복사))
+    - `pytest {테스트파일 경로}`  
+    - `pytest {테스트파일 경로}::{테스트스위트 클래스}`
+    - `pytest {테스트파일 경로}::{테스트스위트 클래스}::{테스트스위트 클래스내 특정 메서드}`
+    - `pytest {테스트파일 경로}` -k {테스트 메서드 명}
+    - `pytest {테스트파일 경로}` -s // 테스트 내 print 출력 
